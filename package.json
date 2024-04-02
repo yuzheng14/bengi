@@ -6,7 +6,7 @@
   "scripts": {
     "build": "rimraf dist && tsc",
     "prepare": "husky",
-    "pre-commit": "lint-staged"
+    "publish": "pnpm publish --registry https://registry.npmjs.org/"
   },
   "keywords": [],
   "author": "",
