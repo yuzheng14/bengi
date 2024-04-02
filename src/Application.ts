@@ -53,3 +53,5 @@ export class Application<StateT = Koa.DefaultState, ContextT = Koa.DefaultContex
     return this as unknown as Koa<StateT & NewStateT, ContextT & NewContextT>
   }
 }
+
+export const app = new Application()

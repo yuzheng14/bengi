@@ -1,4 +1,3 @@
-import { Application } from './Application.js'
+import { app } from './Application.js'
 
-const app = new Application()
 export default app
